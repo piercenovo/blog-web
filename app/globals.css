@@ -12,7 +12,7 @@
     }
 
     body {
-        @apply  font-normal text-black;
+        @apply font-inter font-normal text-black;
     }
 
     i {
@@ -64,7 +64,7 @@
     }
 
     .link{
-        @apply text-dark-grey hover:text-black hover:bg-grey p-3 px-4 block opacity-75 rounded-full;
+        @apply text-dark-grey hover:text-black hover:bg-grey p-3 px-4 block opacity-75;
     }
 
     .hide{
@@ -84,15 +84,15 @@
     }
 
     #textEditor h2, h2{
-        @apply  text-4xl leading-normal font-bold max-md:text-3xl max-md:leading-snug !important;
+        @apply font-inter text-4xl leading-normal font-bold max-md:text-3xl max-md:leading-snug !important;
     }
 
     #textEditor h3, h3 {
-        @apply  text-3xl leading-loose max-md:text-2xl max-md:leading-normal !important;
+        @apply font-inter text-3xl leading-loose max-md:text-2xl max-md:leading-normal !important;
     }
 
     #textEditor *, .blog-page-content *{
-        @apply  text-xl leading-10 md:text-2xl;
+        @apply font-gelasio text-xl leading-10 md:text-2xl;
     }
 
     #textEditor a, .blog-page-content a{

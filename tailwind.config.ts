@@ -15,9 +15,8 @@ const config: Config = {
       red: '#FF4E4E',
       transparent: 'transparent',
       twitter: '#1DA1F2',
-      purple: '#8B46FF'
+      purple: '#084e84'
     },
-
     fontSize: {
       sm: '12px',
       base: '14px',
@@ -26,6 +25,12 @@ const config: Config = {
       '3xl': '28px',
       '4xl': '38px',
       '5xl': '50px'
+    },
+    extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        gelasio: ['var(--font-gelasio)']
+      }
     }
   },
   plugins: []

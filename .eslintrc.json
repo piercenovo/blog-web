@@ -16,6 +16,7 @@
     "no-unused-vars": "off",
     "react/jsx-handler-names": "off",
     "prefer-const": "off",
-    "no-useless-return": "off"
+    "no-useless-return": "off",
+    "multiline-ternary": "off"
   }
 }

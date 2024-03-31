@@ -1,4 +1,4 @@
-export const SearchIcon = ({
+export const EmailIcon = ({
   className
 }: {
   className?: string | undefined
@@ -16,8 +16,9 @@ export const SearchIcon = ({
       strokeLinejoin='round'
       className={className}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M3 10a7 7 0 1014 0 7 7 0 10-14 0M21 21l-6-6' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+      <path d='M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z' />
+      <path d='M3 7l9 6l9 -6' />
     </svg>
   )
 }
