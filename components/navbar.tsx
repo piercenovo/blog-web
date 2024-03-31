@@ -14,7 +14,7 @@ export const Navbar = () => {
   return (
     <nav className='navbar'>
       <Link href='/' className='w-10 flex-none'>
-        <Image src={logo} alt='Logo' className='fill' />
+        <Image src={logo} alt='Logo' className='fill' priority />
       </Link>
 
       <div
